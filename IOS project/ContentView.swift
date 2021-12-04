@@ -57,8 +57,8 @@ struct ContentView: View {
             
                 VStack
                 {
-                    TextField("Email Address", text: $email).padding()
-                    SecureField("Email Password", text: $password).padding()
+                    TextField("Enter Email Address", text: $email).padding()
+                    SecureField("Enter Email Password", text: $password).padding()
                         .background(Color(.secondarySystemBackground))
     //                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
     //                        Text("Sign In")
